@@ -71,7 +71,7 @@ footer {
 .form-select {
     width: 188px;
     border-radius: 0;
-    border-color:light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-color: light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
 }
 .checkout {
     align-items: center;
@@ -87,5 +87,9 @@ footer {
   width: 75%;  
   margin: auto;
   background-color: white;
+}
+.btn-primary {
+    color: black;
+    background-color: white;
 }
 
