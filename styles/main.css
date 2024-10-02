@@ -49,15 +49,16 @@ h2 {
     margin: auto;
     display: block;
 }
-p {
-    margin: auto;
-    text-align: center;
-    display: block;
-    
+.text {
+    padding: 3rem;
 }
-li {
-    margin: auto;
+p {
     text-align: center;
+}
+
+.bullet ul {
+    padding-inline-start: 49%;
+
 }
 footer {
     margin: auto;
@@ -67,3 +68,24 @@ footer {
     align-items: center;
     margin: auto;
 }
+.form-select {
+    width: 188px;
+    border-radius: 0;
+    border-color:light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+}
+.checkout {
+    align-items: center;
+    width: 30%;
+    margin: auto; 
+    text-align: center;   
+} 
+.buy {
+   margin: auto;
+   width: 34%;
+}   
+#cart table {
+  width: 75%;  
+  margin: auto;
+  background-color: white;
+}
+
