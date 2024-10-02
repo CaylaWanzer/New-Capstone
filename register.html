@@ -45,27 +45,35 @@
     </nav>
   </header>
   <main>
+    <br>
     <div class="register">
       <h1>Register </h1>
       <hr>
       <br>
-      <input placeholder="email" type="text" name="email" id="email" minlength="3" maxlength="50">
       <br>
-      <input placeholder="username" type="text" name="username" id="username" minlength="3" maxlength="50">
+      <input placeholder="email" type="text" name="email" id="reg" class="round" minlength="3" maxlength="50">
       <br>
-      <input placeholder="password" type="password" name="password" id="password" minlength="8" maxlength="50">
+      <input placeholder="username" type="text" name="username" id="reg" class="round" minlength="3" maxlength="50">
       <br>
-      <input placeholder="confirm password " type="password" name="password2" id="password2" minlength="8"
+      <input placeholder="password" type="password" name="password" id="reg" class="round" minlength="8" maxlength="50">
+      <br>
+      <input placeholder="confirm password " type="password" name="password2" class="round" id="reg" minlength="8"
         maxlength="50">
       <br>
-      <button id="registerbutton">Register</button>
+      <br>
+      <button class="btn-primary">Register</button>
+      <br>
+      <br>
+      <br>
       <hr>
       <h4>How did you hear about us?</h4>
       <div class="how">
-        <label><input type="radio" name="how" value="Friend"> Friend </label>
-        <label><input type="radio" name="how" value="Google"> Google </label>
-        <label><input type="radio" name="how" value="Facebook"> Facebook</label>
+        <label><input type="radio" name="how" value="Friend" id="radio"> Friend </label>
+        <label><input type="radio" name="how" value="Google" id="radio"> Google </label>
+        <label><input type="radio" name="how" value="Facebook" id="radio"> Facebook</label>
       </div>
+      <br>
+      <hr>
 
     </div>
   </main>
