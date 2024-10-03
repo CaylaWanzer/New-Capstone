@@ -94,6 +94,7 @@ footer {
     /* This is new in 2024, and does not validate in the old validator */
     border-color: light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
     border-radius: 0.25rem;
+    display: block;
 }
 
 .checkout {
