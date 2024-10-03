@@ -70,10 +70,11 @@ footer {
     align-items: center;
     margin: auto;
 }
-.form-select {
+#form-select {
     width: 188px;
     border-radius: 0;
     border-color: light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-radius: 0.25rem;
 }
 .checkout {
     align-items: center;
