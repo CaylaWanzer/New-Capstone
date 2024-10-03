@@ -1,60 +1,71 @@
 body {
     background-color: rgb(245, 205, 240);
+    font-size: 2vh;
 }
 
-input{
+input {
     display: block;
-    
+
 }
 
-input[type=radio]{
+input[type=radio] {
     display: inline-block;
 }
+
 .register {
     /* padding: 5em; */
     align-items: center;
     width: 30%;
-    margin: auto; 
-    text-align: center; 
-     
+    margin: auto;
+    text-align: center;
+
 }
+
 .register input {
     text-align: center;
     margin: auto;
 }
+
 .how label {
     display: block;
 }
+
 .how {
     text-align: left;
     margin: auto;
     color: black;
 }
+
 .login {
     align-items: center;
     width: 30%;
-    margin: auto; 
-    text-align: center;   
+    margin: auto;
+    text-align: center;
 }
+
 .login input {
     text-align: center;
     margin: auto;
 }
+
 h2 {
     text-align: center;
     margin: auto;
     display: block;
-    
+
 }
+
 .cake {
     align-items: center;
     margin: auto;
     display: block;
     border-radius: 3rem;
 }
+
 .text {
     padding: 3rem;
 }
+
 p {
     text-align: center;
 }
@@ -62,49 +73,65 @@ p {
 .bullet ul {
     padding-inline-start: 49%;
 }
+
 footer {
     margin: auto;
     text-align: center;
 }
+
 .card {
     align-items: center;
     margin: auto;
 }
+
 #form-select {
     width: 188px;
     border-radius: 0;
+    /* This is new in 2024, and does not validate in the old validator */
     border-color: light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
     border-radius: 0.25rem;
 }
+
 .checkout {
     align-items: center;
     width: 38%;
-    margin: auto; 
-    text-align: center;   
-} 
-.buy {
-   margin: auto;
-   width: 34%;
-}   
-#cart table {
-  width: 75%;  
-  margin: auto;
-  background-color: white;
-  border-radius: 1rem;
+    margin: auto;
+    text-align: center;
 }
-.btn-primary {
+
+.buy {
+    margin: auto;
+    width: 34%;
+}
+
+#cart table {
+    width: 75%;
+    margin: auto;
+    background-color: white;
+    border-radius: 1rem;
+}
+
+.btn,.btn-primary {
     color: black;
     background-color: rgb(207, 114, 145);
     border-radius: 0.30rem;
-    }
+}
+
+.btn:hover {
+    color: black;
+    background-color: rgb(207, 114, 145);
+    border-radius: 0.30rem;
+}
 
 #btn {
     border-radius: 0.25rem;
 }
+
 button a {
     color: black;
     text-decoration: none;
 }
+
 .round {
     border-radius: 0.25rem;
 }
