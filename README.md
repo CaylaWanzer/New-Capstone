@@ -18,19 +18,27 @@
 
 <br>
 <br>
-This is the register page. It is designed to be an easy seamless registration htat also asks how you heard about us. My favorite HTML feture used was adding in the radi buttons.
+<p>This is the register page. It is designed to be an easy seamless registration htat also asks how you heard about us. My favorite HTML feture used was adding in the radi buttons.</p>
 
 ![Register Page](images/register.png)
 
 <br>
 <br>
-This is my login page. It fetures an easy log in method, a remember me button, and a link to the register page to create an account. My favorite feture is the register now button, when clicked it redirects you to the register page. 
+<p>This is my login page. It fetures an easy log in method, a remember me button, and a link to the register page to create an account. My favorite feture is the register now button, when clicked it redirects you to the register page.</p>
 
 ![Login Page](images/login.png)
 
 <br>
 <br>
-This is my products page. This page fetures each product, gives a description, shows a price, and has an add to cart button. My favorite feture was adding the cards from bootstrap.
+<p>This is my products page. This page fetures six products, gives a description, shows a price, and has an add to cart button. My favorite feture was adding the cards from bootstrap.</p>
+
 
 ![Products Page](images/products.png)
 
+
+<br>
+<br>
+<p>This is my checkout page. It fetures an easy and safe checkout process, and a area for your items waiting to be purchased. My favorite feture is adding the drop down feture for the states.</p>
+
+
+![Checkout Page](images/checkout.png)
