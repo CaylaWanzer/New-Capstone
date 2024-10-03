@@ -1,8 +1,12 @@
 body {
     background-color: rgb(245, 205, 240);
     font-size: 2vh;
+    
+    
 }
-
+.myproducts h1 {
+    text-align: center;
+}
 input {
     display: block;
 
@@ -85,7 +89,7 @@ footer {
 }
 
 #form-select {
-    width: 188px;
+    width: 214px;
     border-radius: 0;
     /* This is new in 2024, and does not validate in the old validator */
     border-color: light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
